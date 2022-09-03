@@ -15,7 +15,7 @@
     font-size: 4.5rem;
 }
 .hero_desc {
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 .hero-text {
     text-align: center;
@@ -75,3 +75,16 @@
     background-color: #808080;
     text-align: center;
 }
+
+/* mediaquery */
+
+    @media (max-width:650px){
+
+    .bgimage {
+			height:100vh;
+    	background: url('images/about.jpg');
+   	 	background-size:cover;
+    	position:relative;
+
+    }
+		}
